@@ -1,2 +1,18 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+</script>
+
+<div><h1>Hello</h1></div>
+
+<style>
+	body {
+		background-color: orange;
+	}
+	div {
+		filter: url(#grainy);
+		background-color: orchid;
+		height: 100vh;
+		width: 100vw;
+
+		opacity: 0.5;
+	}
+</style>
