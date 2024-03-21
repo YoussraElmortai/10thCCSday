@@ -9,25 +9,25 @@
 <style>
 	.bob {
 		background: linear-gradient(to right, rgb(0, 255, 149), purple, rgb(194, 52, 182));
-
-		height: 25rem;
-		width: 25rem;
-		opacity: 40%;
+		top: 20%;
+		height: 20rem;
+		width: 20rem;
+		opacity: 45%;
 		position: absolute;
 		z-index: 2;
-		animation: rotate 20s infinite;
+		animation: rotate 20s infinite ease-in-out;
 		filter: blur(5rem);
 	}
 	.bobs {
 		background: linear-gradient(to right, rgb(52, 0, 242), rgb(0, 128, 19), indigo);
-		left: 55%;
-		top: 13%;
-		height: 25rem;
-		width: 25rem;
-		opacity: 45%;
+		left: 45%;
+		top: 10%;
+		height: 20rem;
+		width: 20rem;
+		opacity: 55%;
 		position: absolute;
 		z-index: 2;
-		animation: rotate 20s infinite;
+		animation: rotate 20s infinite ease-in-out;
 		filter: blur(5rem);
 	}
 
@@ -51,7 +51,7 @@
 		top: 0;
 		left: 0;
 		border-radius: 50%;
-		opacity: 50%;
+		opacity: 40%;
 		overflow: hidden;
 	}
 </style>
